@@ -18,8 +18,6 @@ import {
 export default function Home() {
   const [showDialog, setShowDialog] = useState(false);
 
-  const handleDialogClose = () => setShowDialog(false);
-
   return (
     <div className="min-h-screen bg-black text-white flex flex-col relative overflow-hidden">
       <div className="absolute -top-[106.25%] -right-[12.5%] h-[175vh] w-auto z-0 overflow-hidden">
